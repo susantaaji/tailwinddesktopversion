@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+    background:linear-gradient(250deg,black,rgb(68, 60, 60));
+}
+.discover{
+    background:linear-gradient(-280deg,rgb(47, 142, 185),rgb(11, 102, 110));   
+}
+.gg{
+    background:linear-gradient(280deg,rgb(12, 52, 108),rgb(55, 145, 200));   
+}
+.bul{
+    position:  relative;
+    left:450px;
+}
+/* youth carrer hub code */
+.black-grad{
+    background:linear-gradient(250deg,black,rgb(68, 60, 60));
+}
+
+.blue-grad-2{
+    background:linear-gradient(280deg,rgb(12, 52, 108),rgb(55, 145, 200));    
+}
+.ss{
+   height: 40rem;
+}
+.pic:hover{
+    box-shadow: 10px 5px 5px rgb(4, 83, 42);;
+    border-radius: 10px;
+}
+.pic{
+    transition: 0.5s ease-out;
+}
+.face{
+    transition: 1s ease-in-out;
+}
+.face:hover{
+   transform:translate(150px, 10%);;
+}
+.buttonn:hover{
+ background-color: green;
+}
